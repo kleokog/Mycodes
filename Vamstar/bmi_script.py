@@ -6,7 +6,7 @@ from bmi_functions import *
 # Logging
 import logging
 
-logging.basicConfig(filename = 'file.log',
+logging.basicConfig(filename ='file.log',
                     level = logging.DEBUG,
                     format = '%(asctime)s:%(levelname)s:%(name)s:%(message)s')
 logging.debug("---------------------------------------------------")
