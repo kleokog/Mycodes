@@ -63,7 +63,7 @@ class CustomClassifier:
             self.classifier = RandomForestClassifier(random_state=7, **kwargs)
         elif self.model == 'XGBoost':
             print(self.model)
-            self.classifier = XGBClassifier()
+            self.classifier = XGBClassifier(random_state=7, **kwargs)
         else:
             print("The classifier that you chose does not exist - setting default classifier Logistc Regression")
             self.classifier = LogisticRegression()
@@ -131,6 +131,10 @@ class CustomClassifier:
 
     def estimate_feature_importance(self):
         if self.model == 'RF':
+            self.significance_df = (pd.DataFrame(zip(list(self.X_train.columns), list(self.classifier.feature_importances_))).
+                                    rename(columns= {0:'Feature', 1: 'Significance'}).
+                                    sort_values('Significance', ascending = False))
+        if self.model == 'XGBoost':
             self.significance_df = (pd.DataFrame(zip(list(self.X_train.columns), list(self.classifier.feature_importances_))).
                                     rename(columns= {0:'Feature', 1: 'Significance'}).
                                     sort_values('Significance', ascending = False))
