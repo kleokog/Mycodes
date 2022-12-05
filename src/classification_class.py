@@ -26,6 +26,7 @@ class CustomClassifier:
         self.significance_df = None
         self.f1_score_macro = None
         self.f1_score_weighted = None
+        self.training_accuracy = None
 
 
     def split_to_train_and_test_set(self, X, y, test_size = 0.3):
@@ -54,10 +55,9 @@ class CustomClassifier:
                 raise TypeError('Training set and Test set should have the same labels')
 
     def fit_model(self, **kwargs):
-        # print(**kwargs)
         if self.model == 'LR':
             print(self.model)
-            self.classifier = LogisticRegression(random_state=7, class_weight='balanced')
+            self.classifier = LogisticRegression(random_state=7) # , class_weight='balanced'
         elif self.model == 'RF':
             print(self.model)
             self.classifier = RandomForestClassifier(random_state=7, **kwargs)
@@ -71,6 +71,16 @@ class CustomClassifier:
         self.y_pred = self.classifier.predict(self.X_test)
 
         return self
+
+    def estimate_training_accuracy(self):
+        try:
+            self.classifier.score(self.X_train, self.y_train)
+        except:
+            print("Check that the X_train and the y_train are estimated\n and also the classifier has been trained")
+        self.training_accuracy = round(self.classifier.score(self.X_train, self.y_train), 4)
+        print('Accuracy of {} classifier on training set: {:.4f}'.format(self.model, self.training_accuracy))
+        return self.training_accuracy
+
 
     def estimate_accuracy(self):
         try:
