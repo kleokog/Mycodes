@@ -1,2 +1,1 @@
-# Mycodes
-Small projects that I develop
+Run the Inhabitant Status Classifer.ipynb
