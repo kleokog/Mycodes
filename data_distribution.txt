@@ -1,0 +1,752 @@
+------------------ (0, 'age') ----------------------
+age
+34     3354
+35     3317
+36     3251
+31     3240
+33     3222
+       ... 
+85      353
+86      299
+87      265
+88      212
+89      173
+Length: 91, dtype: int64
+------------------ (1, 'class of worker') ----------------------
+class of worker                
+ Private                           71738
+ Not in universe                   54165
+ Self-employed-not incorporated     8321
+ Local government                   7726
+ State government                   4221
+ Self-employed-incorporated         3259
+ Federal government                 2920
+ Never worked                        383
+ Without pay                         163
+dtype: int64
+------------------ (2, 'detailed industry recode') ----------------------
+detailed industry recode
+0                           54548
+33                          16892
+43                           8223
+4                            5943
+42                           4670
+45                           4467
+29                           4197
+37                           4022
+41                           3948
+32                           3586
+35                           3372
+39                           2932
+34                           2753
+44                           2533
+2                            2127
+11                           1759
+50                           1704
+40                           1650
+47                           1640
+38                           1625
+24                           1502
+12                           1350
+19                           1344
+30                           1179
+31                           1178
+25                           1084
+9                             992
+22                            952
+36                            936
+13                            897
+1                             826
+48                            651
+27                            626
+49                            610
+3                             563
+21                            559
+6                             554
+5                             553
+8                             550
+16                            539
+23                            524
+18                            483
+15                            452
+7                             422
+14                            295
+46                            186
+17                            157
+28                            143
+26                            126
+51                             36
+20                             32
+10                              4
+dtype: int64
+------------------ (3, 'detailed occupation recode') ----------------------
+detailed occupation recode
+0                             54548
+2                              8749
+26                             7868
+19                             5337
+29                             5070
+36                             4142
+34                             3991
+10                             3631
+16                             3408
+23                             3379
+12                             3334
+33                             3314
+3                              3190
+35                             3164
+38                             2992
+31                             2694
+32                             2381
+37                             2233
+8                              2137
+42                             1917
+30                             1889
+24                             1845
+17                             1763
+28                             1657
+44                             1589
+41                             1576
+4                              1364
+43                             1315
+13                             1267
+18                             1077
+39                             1016
+14                              931
+5                               855
+15                              815
+27                              771
+25                              762
+9                               738
+7                               731
+11                              635
+40                              615
+1                               544
+21                              532
+6                               441
+22                              411
+45                              171
+20                               71
+46                               36
+dtype: int64
+------------------ (4, 'education') ----------------------
+education                              
+ High school graduate                      43642
+ Some college but no degree                26329
+ Bachelors degree(BA AB BS)                19391
+ Children                                  12710
+ 10th grade                                 6487
+ Masters degree(MA MS MEng MEd MSW MBA)     6460
+ 7th and 8th grade                          6309
+ 11th grade                                 6213
+ Associates degree-occup /vocational        5249
+ 9th grade                                  4976
+ Associates degree-academic program         4322
+ 5th or 6th grade                           3139
+ 12th grade no diploma                      2059
+ Prof school degree (MD DDS DVM LLB JD)     1791
+ 1st 2nd 3rd or 4th grade                   1755
+ Doctorate degree(PhD EdD)                  1262
+ Less than 1st grade                         802
+dtype: int64
+------------------ (5, 'wage per hour') ----------------------
+wage per hour
+0                141594
+500                 734
+600                 546
+700                 534
+800                 507
+                  ...  
+1061                  1
+753                   1
+1561                  1
+1560                  1
+9999                  1
+Length: 1240, dtype: int64
+------------------ (6, 'enroll in edu inst last wk') ----------------------
+enroll in edu inst last wk
+ Not in universe              142243
+ High school                    5331
+ College or university          5322
+dtype: int64
+------------------ (7, 'marital stat') ----------------------
+marital stat                    
+ Married-civilian spouse present    77842
+ Never married                      48073
+ Divorced                           12504
+ Widowed                             8873
+ Separated                           3430
+ Married-spouse absent               1516
+ Married-A F spouse present           658
+dtype: int64
+------------------ (8, 'major industry code') ----------------------
+major industry code                 
+ Not in universe or children            54548
+ Retail trade                           16892
+ Manufacturing-durable goods             9007
+ Education                               8223
+ Manufacturing-nondurable goods          6892
+ Finance insurance and real estate       6125
+ Construction                            5943
+ Business and repair services            5647
+ Medical except hospital                 4670
+ Public administration                   4605
+ Other professional services             4467
+ Transportation                          4197
+ Hospital services                       3948
+ Wholesale trade                         3586
+ Agriculture                             2953
+ Personal services except private HH     2932
+ Social services                         2533
+ Entertainment                           1650
+ Communications                          1179
+ Utilities and sanitary services         1178
+ Private household services               936
+ Mining                                   563
+ Forestry and fisheries                   186
+ Armed Forces                              36
+dtype: int64
+------------------ (9, 'major occupation code') ----------------------
+major occupation code                 
+ Not in universe                          54548
+ Adm support including clerical           14797
+ Professional specialty                   13866
+ Executive admin and managerial           12483
+ Other service                            12034
+ Sales                                    11656
+ Precision production craft & repair      10469
+ Machine operators assmblrs & inspctrs     6375
+ Handlers equip cleaners etc               4108
+ Transportation and material moving        4008
+ Farming forestry and fishing              3075
+ Technicians and related support           3013
+ Protective services                       1657
+ Private household services                 771
+ Armed Forces                                36
+dtype: int64
+------------------ (10, 'race') ----------------------
+race                        
+ White                          127008
+ Black                           15074
+ Asian or Pacific Islander        5502
+ Other                            3439
+ Amer Indian Aleut or Eskimo      1873
+dtype: int64
+------------------ (11, 'hispanic origin') ----------------------
+hispanic origin           
+ All other                    128819
+ Mexican (Mexicano)             6310
+ Mexican-American               6026
+ Central or South American      3804
+ Puerto Rican                   3064
+ Other Spanish                  2339
+ Cuban                          1094
+ NA                              848
+ Chicano                         298
+ Do not know                     294
+dtype: int64
+------------------ (12, 'sex') ----------------------
+sex    
+ Female    78706
+ Male      74190
+dtype: int64
+------------------ (13, 'member of a labor union') ----------------------
+member of a labor union
+ Not in universe           133840
+ No                         16028
+ Yes                         3028
+dtype: int64
+------------------ (14, 'reason for unemployment') ----------------------
+reason for unemployment
+ Not in universe           146884
+ Other job loser             2038
+ Re-entrant                  2017
+ Job loser - on layoff        976
+ Job leaver                   598
+ New entrant                  383
+dtype: int64
+------------------ (15, 'full or part time employment stat') ----------------------
+full or part time employment stat  
+ Children or Armed Forces              83341
+ Full-time schedules                   40477
+ Not in labor force                    20900
+ PT for non-econ reasons usually FT     3322
+ Unemployed full-time                   2308
+ PT for econ reasons usually PT         1209
+ Unemployed part- time                   814
+ PT for econ reasons usually FT          525
+dtype: int64
+------------------ (16, 'capital gains') ----------------------
+capital gains
+0                145522
+15024               788
+7688                609
+7298                582
+99999               390
+                  ...  
+2387                  1
+1140                  1
+8530                  1
+2601                  1
+4594                  1
+Length: 132, dtype: int64
+------------------ (17, 'capital losses') ----------------------
+capital losses
+0                 148991
+1902                 407
+1977                 381
+1887                 364
+1602                 193
+                   ...  
+1640                   2
+2519                   1
+155                    1
+2080                   1
+1911                   1
+Length: 113, dtype: int64
+------------------ (18, 'dividends from stocks') ----------------------
+dividends from stocks
+0                        131816
+100                        1144
+500                        1025
+1000                        888
+200                         860
+                          ...  
+960                           1
+967                           1
+3594                          1
+3591                          1
+1368                          1
+Length: 1478, dtype: int64
+------------------ (19, 'tax filer stat') ----------------------
+tax filer stat               
+ Joint both under 65             64159
+ Single                          36576
+ Nonfiler                        34732
+ Head of household                7417
+ Joint both 65+                   6556
+ Joint one under 65 & one 65+     3456
+dtype: int64
+------------------ (20, 'region of previous residence') ----------------------
+region of previous residence
+ Not in universe                137492
+ South                            4768
+ West                             3997
+ Midwest                          3451
+ Northeast                        2661
+ Abroad                            527
+dtype: int64
+------------------ (21, 'state of previous residence') ----------------------
+state of previous residence
+ Not in universe               137492
+ California                      1669
+ Utah                            1026
+ Florida                          814
+ North Carolina                   792
+ ?                                698
+ Abroad                           665
+ Oklahoma                         592
+ Minnesota                        534
+ Indiana                          512
+ North Dakota                     483
+ New Mexico                       456
+ Michigan                         438
+ Alaska                           285
+ New Hampshire                    241
+ Kentucky                         241
+ Arizona                          241
+ Wyoming                          239
+ Colorado                         237
+ Oregon                           233
+ West Virginia                    227
+ Georgia                          226
+ Montana                          225
+ Alabama                          214
+ Ohio                             209
+ Texas                            207
+ Arkansas                         201
+ Mississippi                      201
+ Pennsylvania                     198
+ Tennessee                        195
+ New York                         192
+ Louisiana                        188
+ Vermont                          185
+ Iowa                             185
+ Illinois                         178
+ Nebraska                         176
+ Missouri                         172
+ Nevada                           171
+ Maine                            166
+ Massachusetts                    151
+ Kansas                           147
+ South Dakota                     136
+ Maryland                         132
+ Virginia                         125
+ Connecticut                      117
+ District of Columbia             109
+ Wisconsin                        104
+ South Carolina                    94
+ New Jersey                        74
+ Delaware                          73
+ Idaho                             30
+dtype: int64
+------------------ (22, 'detailed household and family stat') ----------------------
+detailed household and family stat              
+ Householder                                        51118
+ Spouse of householder                              37151
+ Nonfamily householder                              20629
+ Child <18 never marr not in subfamily              15185
+ Child 18+ never marr Not in a subfamily            11344
+ Secondary individual                                5939
+ Other Rel 18+ ever marr not in subfamily            1858
+ Other Rel 18+ never marr not in subfamily           1721
+ Child 18+ ever marr Not in a subfamily              1006
+ Grandchild <18 never marr child of subfamily RP      836
+ RP of unrelated subfamily                            678
+ Child 18+ ever marr RP of subfamily                  670
+ Other Rel 18+ ever marr RP of subfamily              655
+ Other Rel 18+ spouse of subfamily RP                 637
+ Child 18+ never marr RP of subfamily                 572
+ Other Rel <18 never marr child of subfamily RP       530
+ Grandchild <18 never marr not in subfamily           500
+ Child under 18 of RP of unrel subfamily              423
+ Other Rel <18 never marr not in subfamily            406
+ Grandchild 18+ never marr not in subfamily           371
+ In group quarters                                    195
+ Child 18+ spouse of subfamily RP                     126
+ Other Rel 18+ never marr RP of subfamily              94
+ Child <18 never marr RP of subfamily                  77
+ Spouse of RP of unrelated subfamily                   52
+ Child <18 ever marr not in subfamily                  35
+ Grandchild 18+ ever marr not in subfamily             34
+ Grandchild 18+ spouse of subfamily RP                 10
+ Child <18 ever marr RP of subfamily                    9
+ Grandchild 18+ ever marr RP of subfamily               9
+ Other Rel <18 ever marr RP of subfamily                6
+ Grandchild 18+ never marr RP of subfamily              6
+ Other Rel <18 never married RP of subfamily            4
+ Other Rel <18 spouse of subfamily RP                   3
+ Grandchild <18 never marr RP of subfamily              2
+ Grandchild <18 ever marr not in subfamily              2
+ Child <18 spouse of subfamily RP                       2
+ Other Rel <18 ever marr not in subfamily               1
+dtype: int64
+------------------ (23, 'detailed household summary in household') ----------------------
+detailed household summary in household
+ Householder                               71761
+ Spouse of householder                     37165
+ Child under 18 never married              15281
+ Child 18 or older                         13719
+ Other relative of householder              7690
+ Nonrelative of householder                 7102
+ Group Quarters- Secondary individual        132
+ Child under 18 ever married                  46
+dtype: int64
+------------------ (24, 'migration code-change in msa') ----------------------
+migration code-change in msa
+ ?                              74944
+ Nonmover                       62204
+ MSA to MSA                     10299
+ NonMSA to nonMSA                2759
+ MSA to nonMSA                    784
+ NonMSA to MSA                    615
+ Abroad to MSA                    450
+ Not identifiable                 424
+ Not in universe                  344
+ Abroad to nonMSA                  73
+dtype: int64
+------------------ (25, 'migration code-change in reg') ----------------------
+migration code-change in reg   
+ ?                                 74944
+ Nonmover                          62204
+ Same county                        9479
+ Different county same state        2773
+ Different region                   1173
+ Different state same division       989
+ Abroad                              527
+ Different division same region      463
+ Not in universe                     344
+dtype: int64
+------------------ (26, 'migration code-move within reg') ----------------------
+migration code-move within reg
+ ?                                74944
+ Nonmover                         62204
+ Same county                       9479
+ Different county same state       2773
+ Different state in South           971
+ Different state in West            677
+ Different state in Midwest         548
+ Abroad                             527
+ Different state in Northeast       429
+ Not in universe                    344
+dtype: int64
+------------------ (27, 'live in this house 1 year ago') ----------------------
+live in this house 1 year ago    
+ Not in universe under 1 year old    75288
+ Yes                                 62204
+ No                                  15404
+dtype: int64
+------------------ (28, 'migration prev res in sunbelt') ----------------------
+migration prev res in sunbelt
+ ?                               74944
+ Not in universe                 62548
+ No                               9767
+ Yes                              5637
+dtype: int64
+------------------ (29, 'num persons worked for employer') ----------------------
+num persons worked for employer
+0                                  49985
+6                                  36258
+1                                  22885
+4                                  14328
+3                                  13373
+2                                  10047
+5                                   6020
+dtype: int64
+------------------ (30, 'family members under 18') ----------------------
+family members under 18
+ Not in universe           134959
+ Both parents present       10863
+ Mother only present         5137
+ Father only present         1028
+ Neither parent present       909
+dtype: int64
+------------------ (31, 'country of birth father') ----------------------
+country of birth father      
+ United-States                   115471
+ Mexico                            8120
+ ?                                 6383
+ Puerto-Rico                       2560
+ Italy                             2150
+ Canada                            1354
+ Germany                           1305
+ Dominican-Republic                1245
+ Poland                            1192
+ Cuba                              1089
+ Philippines                       1067
+ El-Salvador                        942
+ China                              829
+ England                            780
+ Columbia                           601
+ India                              549
+ South Korea                        505
+ Ireland                            504
+ Jamaica                            450
+ Guatemala                          435
+ Vietnam                            432
+ Portugal                           384
+ Japan                              381
+ Ecuador                            371
+ Haiti                              344
+ Greece                             342
+ Peru                               335
+ Nicaragua                          311
+ Hungary                            304
+ Scotland                           247
+ Iran                               231
+ Yugoslavia                         216
+ Honduras                           192
+ Cambodia                           192
+ France                             189
+ Taiwan                             185
+ Outlying-U S (Guam USVI etc)       159
+ Laos                               150
+ Trinadad&Tobago                    111
+ Thailand                           107
+ Hong Kong                          106
+ Holand-Netherlands                  51
+ Panama                              25
+dtype: int64
+------------------ (32, 'country of birth mother') ----------------------
+country of birth mother      
+ United-States                   116617
+ Mexico                            7993
+ ?                                 5810
+ Puerto-Rico                       2378
+ Italy                             1786
+ Canada                            1433
+ Germany                           1332
+ Philippines                       1137
+ Poland                            1093
+ Cuba                              1078
+ Dominican-Republic                1063
+ El-Salvador                       1060
+ England                            891
+ China                              734
+ Columbia                           598
+ Ireland                            596
+ South Korea                        582
+ India                              551
+ Japan                              456
+ Vietnam                            449
+ Jamaica                            442
+ Guatemala                          435
+ Ecuador                            368
+ Peru                               355
+ Haiti                              346
+ Portugal                           339
+ Nicaragua                          299
+ Hungary                            295
+ Greece                             260
+ Scotland                           241
+ Honduras                           216
+ France                             211
+ Taiwan                             208
+ Iran                               198
+ Yugoslavia                         176
+ Outlying-U S (Guam USVI etc)       157
+ Cambodia                           153
+ Laos                               151
+ Thailand                           123
+ Hong Kong                          107
+ Trinadad&Tobago                     98
+ Holand-Netherlands                  49
+ Panama                              32
+dtype: int64
+------------------ (33, 'country of birth self') ----------------------
+country of birth self        
+ United-States                   130943
+ Mexico                            5379
+ ?                                 3322
+ Puerto-Rico                       1388
+ Philippines                        837
+ Cuba                               835
+ Germany                            825
+ Canada                             700
+ Dominican-Republic                 684
+ El-Salvador                        677
+ China                              474
+ South Korea                        459
+ England                            452
+ Columbia                           433
+ Italy                              415
+ India                              405
+ Vietnam                            384
+ Poland                             380
+ Guatemala                          343
+ Japan                              330
+ Jamaica                            318
+ Peru                               268
+ Ecuador                            257
+ Haiti                              227
+ Nicaragua                          216
+ Taiwan                             200
+ Portugal                           174
+ Iran                               157
+ Greece                             147
+ Honduras                           144
+ Ireland                            135
+ France                             121
+ Outlying-U S (Guam USVI etc)       119
+ Thailand                           112
+ Laos                               105
+ Hong Kong                          100
+ Cambodia                            94
+ Hungary                             79
+ Scotland                            75
+ Trinadad&Tobago                     66
+ Yugoslavia                          66
+ Panama                              28
+ Holand-Netherlands                  23
+dtype: int64
+------------------ (34, 'citizenship') ----------------------
+citizenship                                 
+ Native- Born in the United States              130946
+ Foreign born- Not a citizen of U S              12887
+ Foreign born- U S citizen by naturalization      5829
+ Native- Born abroad of American Parent(s)        1727
+ Native- Born in Puerto Rico or U S Outlying      1507
+dtype: int64
+------------------ (35, 'own business or self employed') ----------------------
+own business or self employed
+0                                134072
+2                                 16126
+1                                  2698
+dtype: int64
+------------------ (36, "fill inc questionnaire for veteran's admin") ----------------------
+fill inc questionnaire for veteran's admin
+ Not in universe                              150931
+ No                                             1575
+ Yes                                             390
+dtype: int64
+------------------ (37, 'veterans benefits') ----------------------
+veterans benefits
+2                    138234
+0                     12697
+1                      1965
+dtype: int64
+------------------ (38, 'weeks worked in year') ----------------------
+weeks worked in year
+52                      69825
+0                       49985
+40                       2784
+50                       2302
+26                       2264
+48                       1801
+12                       1741
+30                       1378
+20                       1327
+8                        1110
+36                       1106
+16                        943
+32                        882
+44                        844
+51                        819
+24                        767
+4                         753
+46                        708
+35                        702
+10                        679
+45                        669
+6                         639
+39                        602
+42                        571
+28                        567
+49                        509
+13                        492
+1                         459
+25                        456
+2                         454
+3                         416
+38                        380
+43                        374
+22                        369
+15                        352
+17                        331
+5                         305
+47                        278
+18                        269
+14                        255
+9                         239
+34                        230
+7                         152
+21                        134
+37                        122
+41                         88
+33                         81
+11                         78
+27                         76
+23                         67
+29                         63
+31                         51
+19                         48
+dtype: int64
+------------------ (39, 'year') ----------------------
+year
+94      77952
+95      74944
+dtype: int64
+------------------ (40, 'alternative_income_sources') ----------------------
+alternative_income_sources
+ 0                            123606
+ 100                             989
+ 500                             862
+ 200                             748
+ 1000                            745
+                               ...  
+-1565                              1
+ 3594                              1
+ 3591                              1
+ 3586                              1
+ 2891                              1
+Length: 3423, dtype: int64

@@ -1,0 +1,4 @@
+Date,Model,Accuracy,Precision,F1_score unweighted,F1_score weighted,Training Accuracy,Version
+"28/12/2022, 20:55",RF,0.938,0.733,0.734,0.929,1.0,Basic Implementation
+"28/12/2022, 20:55",LR,0.928,0.744,0.621,0.907,0.928,Basic Implementation
+"28/12/2022, 20:55",XGBoost,0.945,0.752,0.778,0.939,0.953,Basic Implementation
