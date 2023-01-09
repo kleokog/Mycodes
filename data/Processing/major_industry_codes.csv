@@ -1,53 +1,53 @@
 detailed industry recode,major industry code,user_id
-0, Not in universe or children,54548
-1, Agriculture,826
-2, Agriculture,2127
-3, Mining,563
-4, Construction,5943
-5, Manufacturing-durable goods,553
-6, Manufacturing-durable goods,554
-7, Manufacturing-durable goods,422
-8, Manufacturing-durable goods,550
-9, Manufacturing-durable goods,992
-10, Manufacturing-durable goods,4
-11, Manufacturing-durable goods,1759
-12, Manufacturing-durable goods,1350
-13, Manufacturing-durable goods,897
-14, Manufacturing-durable goods,295
-15, Manufacturing-durable goods,452
-16, Manufacturing-durable goods,539
-17, Manufacturing-durable goods,157
-18, Manufacturing-durable goods,483
-19, Manufacturing-nondurable goods,1344
-20, Manufacturing-nondurable goods,32
-21, Manufacturing-nondurable goods,559
-22, Manufacturing-nondurable goods,952
-23, Manufacturing-nondurable goods,524
-24, Manufacturing-nondurable goods,1502
-25, Manufacturing-nondurable goods,1084
-26, Manufacturing-nondurable goods,126
-27, Manufacturing-nondurable goods,626
-28, Manufacturing-nondurable goods,143
-29, Transportation,4197
-30, Communications,1179
-31, Utilities and sanitary services,1178
-32, Wholesale trade,3586
-33, Retail trade,16892
-34, Finance insurance and real estate,2753
-35, Finance insurance and real estate,3372
-36, Private household services,936
-37, Business and repair services,4022
-38, Business and repair services,1625
-39, Personal services except private HH,2932
-40, Entertainment,1650
-41, Hospital services,3948
-42, Medical except hospital,4670
-43, Education,8223
-44, Social services,2533
-45, Other professional services,4467
-46, Forestry and fisheries,186
-47, Public administration,1640
-48, Public administration,651
-49, Public administration,610
-50, Public administration,1704
-51, Armed Forces,36
+0,Not in universe or children,54548
+1,Agriculture,826
+10,Manufacturing-durable goods,4
+11,Manufacturing-durable goods,1759
+12,Manufacturing-durable goods,1350
+13,Manufacturing-durable goods,897
+14,Manufacturing-durable goods,295
+15,Manufacturing-durable goods,452
+16,Manufacturing-durable goods,539
+17,Manufacturing-durable goods,157
+18,Manufacturing-durable goods,483
+19,Manufacturing-nondurable goods,1344
+2,Agriculture,2127
+20,Manufacturing-nondurable goods,32
+21,Manufacturing-nondurable goods,559
+22,Manufacturing-nondurable goods,952
+23,Manufacturing-nondurable goods,524
+24,Manufacturing-nondurable goods,1502
+25,Manufacturing-nondurable goods,1084
+26,Manufacturing-nondurable goods,126
+27,Manufacturing-nondurable goods,626
+28,Manufacturing-nondurable goods,143
+29,Transportation,4197
+3,Mining,563
+30,Communications,1179
+31,Utilities and sanitary services,1178
+32,Wholesale trade,3586
+33,Retail trade,16892
+34,Finance insurance and real estate,2753
+35,Finance insurance and real estate,3372
+36,Private household services,936
+37,Business and repair services,4022
+38,Business and repair services,1625
+39,Personal services except private HH,2932
+4,Construction,5943
+40,Entertainment,1650
+41,Hospital services,3948
+42,Medical except hospital,4670
+43,Education,8223
+44,Social services,2533
+45,Other professional services,4467
+46,Forestry and fisheries,186
+47,Public administration,1640
+48,Public administration,651
+49,Public administration,610
+5,Manufacturing-durable goods,553
+50,Public administration,1704
+51,Armed Forces,36
+6,Manufacturing-durable goods,554
+7,Manufacturing-durable goods,422
+8,Manufacturing-durable goods,550
+9,Manufacturing-durable goods,992

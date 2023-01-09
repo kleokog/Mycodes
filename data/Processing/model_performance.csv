@@ -2,3 +2,6 @@ Date,Model,Accuracy,Precision,F1_score unweighted,F1_score weighted,Training Acc
 "28/12/2022, 20:55",RF,0.938,0.733,0.734,0.929,1.0,Basic Implementation
 "28/12/2022, 20:55",LR,0.928,0.744,0.621,0.907,0.928,Basic Implementation
 "28/12/2022, 20:55",XGBoost,0.945,0.752,0.778,0.939,0.953,Basic Implementation
+"09/01/2023, 03:34",RF,0.94,0.738,0.746,0.932,1.0,New Features (Version 2)
+"09/01/2023, 03:34",LR,0.928,0.737,0.617,0.906,0.928,New Features (Version 2)
+"09/01/2023, 03:34",XGBoost,0.945,0.751,0.778,0.939,0.954,New Features (Version 2)
