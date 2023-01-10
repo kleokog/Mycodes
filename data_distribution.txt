@@ -736,17 +736,3 @@ year
 94      77952
 95      74944
 dtype: int64
------------------- (40, 'alternative_income_sources') ----------------------
-alternative_income_sources
- 0                            123606
- 100                             989
- 500                             862
- 200                             748
- 1000                            745
-                               ...  
--1565                              1
- 3594                              1
- 3591                              1
- 3586                              1
- 2891                              1
-Length: 3423, dtype: int64
